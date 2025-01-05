@@ -35,7 +35,7 @@ const OrderPage = () => {
                 header={<Title>주문내역</Title>}
                 footer={<Navbar />}
             >
-                { !orderList || orderList.length === 0 && (
+                { !orderList || orderList.length === 0 && ( 
                     <div style={{textAlign:"center"}}>
                         <h1>텅! 비어있음</h1>
                     </div>
